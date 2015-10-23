@@ -1,48 +1,46 @@
 @font-face {
-    font-family: 'work_sansthin';
-    src: url('../fonts/worksans-thin-webfont.eot');
-    src: url('../fonts/worksans-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/worksans-thin-webfont.woff2') format('woff2'),
-         url('../fonts/worksans-thin-webfont.woff') format('woff'),
-         url('../fonts/worksans-thin-webfont.ttf') format('truetype'),
-         url('../fonts/worksans-thin-webfont.svg#work_sansthin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'work_sansthin';
+	src: url('../fonts/worksans-thin-webfont.eot');
+	src: url('../fonts/worksans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/worksans-thin-webfont.woff2') format('woff2'),
+		 url('../fonts/worksans-thin-webfont.woff') format('woff'),
+		 url('../fonts/worksans-thin-webfont.ttf') format('truetype'),
+		 url('../fonts/worksans-thin-webfont.svg#work_sansthin') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'work_sansregular';
-    src: url('../fonts/worksans-regular-webfont.eot');
-    src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
-         url('../fonts/worksans-regular-webfont.woff') format('woff'),
-         url('../fonts/worksans-regular-webfont.ttf') format('truetype'),
-         url('../fonts/worksans-regular-webfont.svg#work_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'work_sansregular';
+	src: url('../fonts/worksans-regular-webfont.eot');
+	src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/worksans-regular-webfont.woff') format('woff'),
+		 url('../fonts/worksans-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/worksans-regular-webfont.svg#work_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body{
+body {
 	background-color: #fff;
-	font-family: 'work_sansregular',sans-serif;	
+	font-family: 'work_sansregular',sans-serif;
 	font-size: 62.5%;
 }
 
-header{
+header {
 	border-bottom: 4px solid #BCBBBB;
 	margin-bottom: 34px;
-	margin-top:40px;
+	margin-top: 40px;
 }
 
 #headings {
-	float:right;
+	float: right;
 	text-align: right;
 }
 
-#headings h1{
-	font-family:'work_sansthin', sans-serif;
+#headings h1 {
+	font-family: 'work_sansthin', sans-serif;
 	font-size: 5.5em;
 	text-transform: uppercase;
 	color: #666756;
@@ -50,64 +48,61 @@ header{
 	margin-bottom: 0;
 }
 
-#headings h2{
+#headings h2 {
 	font-size: 2em;
-    text-transform: uppercase;
-    color: #666756;
-    letter-spacing: 0.05em;
-    margin: 0 5px;
+	text-transform: uppercase;
+	color: #666756;
+	letter-spacing: 0.05em;
+	margin: 0 5px;
 }
 
-#logo{
+#logo {
 	margin-bottom: 14px;
 }
 
-
-#mainTeaser{
+#mainTeaser {
 	display: block;
-	width:100%;
+	width: 100%;
 	padding: 0;
 }
 
-
-#works h2{
-	font-family:'work_sansthin', sans-serif;
-    color: #bcbbbb;
-    font-size: 3.5em;
-    line-height: 1em;
-    letter-spacing: 0.04em;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    margin-left: 10px;
+#works h2 {
+	font-family: 'work_sansthin', sans-serif;
+	color: #bcbbbb;
+	font-size: 3.5em;
+	line-height: 1em;
+	letter-spacing: 0.04em;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	margin-left: 10px;
 }
 
-.teaser{
+.teaser {
 	text-align: center;
 }
 
-.teaser h3{
-     color: #666756;
-    font-weight: lighter;
-    font-size: 3.3em;
-    letter-spacing: 0.05em;
-    margin: 9px 2px 0;
-    line-height: 1.2em;
-
+.teaser h3 {
+	color: #666756;
+	font-weight: lighter;
+	font-size: 3.3em;
+	letter-spacing: 0.05em;
+	margin: 9px 2px 0;
+	line-height: 1.2em;
 }
 
-.teaser a{
-	font-family:'work_sansthin', sans-serif;
+.teaser a {
+	font-family: 'work_sansthin', sans-serif;
 	font-size: 1.3em;
 	color: #666756;
 }
 
-@media (max-width: 767px){
-	#works h2{
+@media (max-width: 767px) {
+	#works h2 {
 		text-align: left;
 		margin-top: 40px;
 	}
 
-	#headings h1{
+	#headings h1 {
 		font-size: 4em;
 	}
 
@@ -116,11 +111,10 @@ header{
 		text-align: center;
 	}
 
-	header{
+	header {
 		text-align: center;
 	}
 }
-
 
 
 
